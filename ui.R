@@ -1,4 +1,6 @@
 # file containing the definition of the user interface
+library("bslib")
+
 # Define the User Interface (Frontend)
 ui <- page_fluid(
   layout_columns(

@@ -3,6 +3,8 @@
 # Load needed libraries
 library("bslib")
 library("shiny")
+library("ggplot2")
+library("stringr")
 
 source(file = "app_functions.R")
 

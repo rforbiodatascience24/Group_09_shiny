@@ -1,0 +1,12 @@
+name: virtual_central_dogma
+title: virtual_central_dogma
+username: ftk9cy-marco-andreis
+account: ftk9cy-marco-andreis
+server: shinyapps.io
+hostUrl: https://api.shinyapps.io/v1
+appId: 13263167
+bundleId: 9329071
+url: https://ftk9cy-marco-andreis.shinyapps.io/virtual_central_dogma/
+version: 1
+asMultiple: FALSE
+asStatic: FALSE

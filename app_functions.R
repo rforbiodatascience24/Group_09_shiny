@@ -73,12 +73,12 @@ translate_rna <- function(rna){
 }
 
 # Simple base counts
-base_freqs <- function(seq){
-  if (is.null(seq) || seq == "" ){
-    return( data.frame(seq_vec = factor(c("A", "C", "G", "T", "U")),
+base_freqs <- function(dna){
+  if (is.null(dna) || dna == "" ){
+    return( data.frame(dna_vec = factor(c("A", "C", "G", "T", "U")),
                        Freq = c(0, 0, 0, 0, 0)) ) }
-  seq_vec <- strsplit(x = seq,
+  dna_vec <- strsplit(x = dna,
                       split = "")
-  base_counts <- table(seq_vec)
+  base_counts <- table(dna_vec)
   return( as.data.frame.table(base_counts) )
 }
